@@ -1,0 +1,7 @@
+[project]
+name = "gnn-playground"
+version = "0.1.0"
+description = "A dependency-free teaching playground for GNN ideas"
+requires-python = ">=3.10"
+[project.scripts]
+gnn-playground = "gnn_playground.__main__:main"
